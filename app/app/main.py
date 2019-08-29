@@ -51,7 +51,7 @@ def get_n_similar_items_for_sku(sku, n, item_item_df,
         print(s.format(n, item.loc["name"], item.group))
 
     if return_as_json:
-        return top_n_skus.to_json(orient="records")
+        return top_n_skus.reset_index().to_json(orient="records")
 
     return top_n_skus
 
@@ -63,6 +63,11 @@ def load_pickled_data():
         item_item_df, product_description_df = pickle.load(f)
 
     return item_item_df, product_description_df
+
+
+@app.route('/api/v1.0/test')
+def test():
+    return "Alive"
 
 
 @app.route('/api/v1.0/predict', methods=['GET'])
@@ -80,8 +85,9 @@ def process_api_call():
     """
 
     query_params = request.args
-    sku = query_params.get('sku')
-    n = query_params.get('n')
+
+    sku = int(query_params.get('sku'))
+    n = int(query_params.get('n'))
 
     response_json = get_n_similar_items_for_sku(sku,
                                                 n,
@@ -89,7 +95,7 @@ def process_api_call():
                                                 product_description_df,
                                                 return_as_json=True)
 
-    return response_json, 200
+    return response_json
 
 
 item_item_df, product_description_df = load_pickled_data()
