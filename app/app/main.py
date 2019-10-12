@@ -65,11 +65,6 @@ def load_pickled_data():
     return item_item_df, product_description_df
 
 
-@app.route('/api/v1.0/test')
-def test():
-    return "Alive"
-
-
 @app.route('/api/v1.0/predict', methods=['GET'])
 def process_api_call():
     """
