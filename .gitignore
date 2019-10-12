@@ -2,3 +2,4 @@
 app/app/model
 *.pyc
 kaggle_version
+kaggle_notebooks
