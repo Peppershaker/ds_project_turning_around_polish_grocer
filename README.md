@@ -13,7 +13,7 @@ The first part is aimed at gaining business understanding through EDA, as well a
 Please view the JupyterNotebooks for details.
 
 ### Part 2: Combining Business Understanding Through EDA With Strategic Analysis To Recommend A Repositioning
-#### Below is the presentation on recommendations and the strategic analysis undertaken
+Below is the presentation on recommendations and the strategic rationale
 
 ![grocerpic-0](https://user-images.githubusercontent.com/15576531/71803770-a3ec7400-302f-11ea-80a1-6927faf245d9.jpg)
 ![grocerpic-1](https://user-images.githubusercontent.com/15576531/71803771-a3ec7400-302f-11ea-837f-ccd7ead39b10.jpg)
