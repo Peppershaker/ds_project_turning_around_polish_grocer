@@ -8,7 +8,7 @@ We will approach this in 2 parts.
 ### Part 1: EDA & Recommender Systems
 The first part is aimed at gaining business understanding through EDA, as well as implementing a recommender system to advise on end-of-isle and in-isle promotions to increase cross-sell. This recommender system is deployed using Docker and can be integrated to the store's eCommerce website.
 
-**Main result of the EDA includes the identification and recommended removal of underperforming SKUs that could free up ~31% of the total working capital. This cash inflow can then be used on other investments, such as purchasing new inventory for the repositioning.**
+**Main result of the EDA includes the identification and recommended removal of underperforming SKUs that could free up ~31% of the total working capital. This cash inflow can then be used on other investments, such as purchasing new inventory for the repositioning to a speciality retailer.**
 
 Please view the JupyterNotebooks for details.
 
