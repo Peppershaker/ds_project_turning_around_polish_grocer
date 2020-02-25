@@ -6,7 +6,12 @@ As such, the overall business objective is to make the store cometative again.
 We will approach this in 2 parts. 
 
 ### Part 1: EDA & Recommender Systems
-The first part is aimed at gaining business understanding through EDA, as well as implementing a recommender system to advise on end-of-isle and in-isle promotions to increase cross-sell. This recommender system is deployed using Docker and can be integrated to the store's eCommerce website.
+The first part is aimed at gaining business understanding through EDA and market analysis.
+
+I will then be implementing a recommender system to generate related product recommendations for end-of-isle and in-isle promotions to increase cross-sell. 
+![isles](https://user-images.githubusercontent.com/15576531/75215381-83eb4e00-575e-11ea-843a-9b41e3600703.jpg)
+
+This recommender system will also be deployed as API using Docker - making it available for store's eCommerce website.
 
 **Main result of the EDA includes the identification and recommended removal of underperforming SKUs that could free up ~31% of the total working capital. This cash inflow can then be used on other investments, such as purchasing new inventory for the repositioning to a speciality retailer.**
 
