@@ -9,7 +9,7 @@ We will approach this in 2 parts.
 The first part is aimed at gaining business understanding through EDA and market analysis.
 
 I will then be implementing a recommender system to generate related product recommendations for end-of-isle and in-isle promotions to increase cross-sell. 
-![isles](https://user-images.githubusercontent.com/15576531/75215381-83eb4e00-575e-11ea-843a-9b41e3600703.jpg)
+![aisle](https://user-images.githubusercontent.com/15576531/75293396-138f0c00-57f4-11ea-8ebd-b169ded85d5e.jpg)
 
 This recommender system will also be deployed as API using Docker - making it available for store's eCommerce website.
 
